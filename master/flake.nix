@@ -11,6 +11,7 @@
   inputs.src-nimshell-master.ref   = "refs/heads/master";
   inputs.src-nimshell-master.owner = "vegansk";
   inputs.src-nimshell-master.repo  = "nimshell";
+  inputs.src-nimshell-master.dir   = "";
   inputs.src-nimshell-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

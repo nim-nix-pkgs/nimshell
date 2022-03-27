@@ -11,6 +11,7 @@
   inputs.src-nimshell-v0_0_3.ref   = "refs/tags/v0.0.3";
   inputs.src-nimshell-v0_0_3.owner = "vegansk";
   inputs.src-nimshell-v0_0_3.repo  = "nimshell";
+  inputs.src-nimshell-v0_0_3.dir   = "";
   inputs.src-nimshell-v0_0_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
